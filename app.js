@@ -12,5 +12,14 @@ function pageTransitions(){
             this.className += ' active-btn';
     })
 }
+allSections.addEventListener('click', function(e){
+    const id = e.target.dataset.id;
+    if(id){
+        // remove selected from the other btns
+        secBtns.forEach(function(btn){
+            btn.classList.remove('active-btn');
+        })
+    }
+})
 }
 pageTransitions();
