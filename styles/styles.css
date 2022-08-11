@@ -877,6 +877,11 @@ section {
   }
   .contact-content-con .right-contact {
     margin-bottom: 6rem;
+    width: 90%;
+  }
+  .contact-content-con .right-contact .input-control input, .contact-content-con .right-contact .input-control textarea {
+    width: 100%;
+    margin: 0px auto;
   }
   .main-title h2 .bg-text {
     font-size: 5.5rem;
