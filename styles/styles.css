@@ -59,11 +59,12 @@ header {
 
 section {
   min-height: 100vh;
-  width: 100%;
+  width: 80%;
   position: absolute;
   left: 0;
   top: 0;
-  padding: 3rem 18rem;
+  padding: 2% 9%;
+  border: 2px solid red;
 }
 
 .section {
@@ -229,6 +230,7 @@ section {
   line-height: 2rem;
 }
 
+/*About*/
 .btn-con {
   display: flex;
   align-self: flex-start;
