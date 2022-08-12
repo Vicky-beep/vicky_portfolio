@@ -880,6 +880,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
   }
+ 
 }
 @media screen and (max-width: 1070px) {
   .about-container {
@@ -898,6 +899,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   .main-title h2 .bg-text {
     font-size: 4.5rem;
   }
+
 }
 @media screen and (max-width: 970px) {
   .container {
